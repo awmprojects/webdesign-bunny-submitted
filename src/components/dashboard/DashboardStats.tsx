@@ -6,8 +6,8 @@ const DashboardStats = () => {
     value: "12",
     subValue: "+3 this month",
     icon: Briefcase,
-    color: "from-blue-500 to-amber-500",
-    bgColor: "from-blue-50 to-amber-50"
+    color: "from-blue-500 to-orange-500",
+    bgColor: "from-blue-50 to-orange-50"
   }, {
     title: "Completed Designs",
     value: "47",
@@ -20,8 +20,8 @@ const DashboardStats = () => {
     value: "4.9",
     subValue: "Average rating",
     icon: TrendingUp,
-    color: "from-orange-500 to-amber-500",
-    bgColor: "from-orange-50 to-amber-50"
+    color: "from-orange-500 to-orange-500",
+    bgColor: "from-orange-50 to-orange-50"
   }, {
     title: "Project Revenue",
     value: "$24,500",

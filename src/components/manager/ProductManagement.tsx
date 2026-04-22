@@ -113,12 +113,12 @@ const ProductManagement = ({ onEditProduct }: ProductManagementProps) => {
               </div>
               <p className="text-2xl font-bold text-green-900">{products.filter(p => p.available).length}</p>
             </div>
-            <div className="bg-amber-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <DollarSign className="w-5 h-5 text-amber-600" />
-                <span className="text-sm font-medium text-amber-600">Avg. Price</span>
+                <DollarSign className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Avg. Price</span>
               </div>
-              <p className="text-2xl font-bold text-amber-900">
+              <p className="text-2xl font-bold text-orange-900">
                 ${(products.reduce((sum, p) => sum + p.price, 0) / products.length).toFixed(0)}
               </p>
             </div>
@@ -163,13 +163,13 @@ const ProductManagement = ({ onEditProduct }: ProductManagementProps) => {
                   <TableCell className="text-green-600 font-medium">${product.reward}</TableCell>
                   <TableCell>
                     <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                      <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                       <span>{product.rating}</span>
                       <span className="text-gray-500 text-sm">({product.reviewCount})</span>
                     </div>
                   </TableCell>
                   <TableCell>
-                    <span className={product.stock > 10 ? "text-green-600" : product.stock > 0 ? "text-amber-600" : "text-red-600"}>
+                    <span className={product.stock > 10 ? "text-green-600" : product.stock > 0 ? "text-orange-600" : "text-red-600"}>
                       {product.stock}
                     </span>
                   </TableCell>

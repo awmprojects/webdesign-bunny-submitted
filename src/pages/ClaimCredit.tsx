@@ -50,7 +50,7 @@ const ClaimCredit = () => {
     console.log('Form submitted:', formData);
   };
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <Header />
 
       <main className="container mx-auto px-4 py-8 pt-24">
@@ -169,7 +169,7 @@ const ClaimCredit = () => {
                 <Button 
                   type="submit" 
                   size="lg" 
-                  className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold text-base sm:text-lg py-4 sm:py-5 h-auto shadow-lg min-h-[56px] sm:min-h-[64px] px-4 sm:px-6 rounded-lg sm:rounded-xl transition-all duration-200 active:scale-95 touch-manipulation"
+                  className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600 text-white font-bold text-base sm:text-lg py-4 sm:py-5 h-auto shadow-lg min-h-[56px] sm:min-h-[64px] px-4 sm:px-6 rounded-lg sm:rounded-xl transition-all duration-200 active:scale-95 touch-manipulation"
                 >
                   <Gift className="w-5 h-5 sm:w-6 sm:h-6 mr-2 flex-shrink-0" />
                   <span className="text-center leading-tight">

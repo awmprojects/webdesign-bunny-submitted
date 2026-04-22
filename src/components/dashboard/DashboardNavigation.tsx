@@ -129,7 +129,7 @@ const DashboardNavigation = () => {
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <Link
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-amber-500/20 to-orange-500/20 p-6 no-underline outline-none focus:shadow-md"
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-orange-500/20 to-orange-500/20 p-6 no-underline outline-none focus:shadow-md"
                     to="/dashboard/profile"
                   >
                     <User className="h-6 w-6" />

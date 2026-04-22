@@ -146,7 +146,7 @@ const ReviewForm = ({ product, onBack }: ReviewFormProps) => {
                     <Star
                       className={`w-8 h-8 transition-colors ${
                         star <= (hoveredRating || rating)
-                          ? "fill-amber-400 text-amber-400"
+                          ? "fill-orange-400 text-orange-400"
                           : "text-gray-300"
                       }`}
                     />
@@ -229,7 +229,7 @@ const ReviewForm = ({ product, onBack }: ReviewFormProps) => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="flex-1 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                className="flex-1 bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
               >
                 {isSubmitting ? "Submitting..." : "Submit for Approval"}
               </Button>

@@ -120,7 +120,7 @@ const Reviews = () => {
   if (selectedProduct && activeTab === "write-review") {
     const product = claimedProducts.find(p => p.id === selectedProduct);
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
         <DashboardHeader />
         <main className="container mx-auto px-4 py-8">
           <ReviewForm 
@@ -136,7 +136,7 @@ const Reviews = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -183,7 +183,7 @@ const Reviews = () => {
                         {getApprovalBadge(product.approvalStatus)}
                       </div>
                       <span className={`text-sm font-semibold ${
-                        product.status === "approved" ? "text-green-600" : "text-amber-600"
+                        product.status === "approved" ? "text-green-600" : "text-orange-600"
                       }`}>
                         ${product.reward} {product.status === "approved" ? "earned" : "reward"}
                       </span>
@@ -213,7 +213,7 @@ const Reviews = () => {
                     
                     {product.status === "pending" && (
                       <Button 
-                        className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                        className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
                         onClick={() => handleStartReview(product.id)}
                       >
                         <Edit3 className="w-4 h-4 mr-2" />
@@ -223,7 +223,7 @@ const Reviews = () => {
                     
                     {product.status === "in-progress" && (
                       <Button 
-                        className="w-full bg-gradient-to-r from-blue-500 to-amber-500 hover:from-blue-600 hover:to-amber-600"
+                        className="w-full bg-gradient-to-r from-blue-500 to-orange-500 hover:from-blue-600 hover:to-orange-600"
                         onClick={() => handleStartReview(product.id)}
                       >
                         <Edit3 className="w-4 h-4 mr-2" />
@@ -276,7 +276,7 @@ const Reviews = () => {
                           {product.status}
                         </div>
                       </Badge>
-                      <span className="text-sm text-amber-600 font-semibold">${product.reward} reward</span>
+                      <span className="text-sm text-orange-600 font-semibold">${product.reward} reward</span>
                     </div>
                     
                     <CardTitle className="text-lg">{product.name}</CardTitle>
@@ -285,7 +285,7 @@ const Reviews = () => {
                   
                   <CardContent className="pt-0">
                     <Button 
-                      className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                      className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
                       onClick={() => handleStartReview(product.id)}
                     >
                       <Edit3 className="w-4 h-4 mr-2" />
@@ -313,7 +313,7 @@ const Reviews = () => {
                           {product.status}
                         </div>
                       </Badge>
-                      <span className="text-sm text-amber-600 font-semibold">${product.reward} reward</span>
+                      <span className="text-sm text-orange-600 font-semibold">${product.reward} reward</span>
                     </div>
                     
                     <CardTitle className="text-lg">{product.name}</CardTitle>
@@ -322,7 +322,7 @@ const Reviews = () => {
                   
                   <CardContent className="pt-0">
                     <Button 
-                      className="w-full bg-gradient-to-r from-blue-500 to-amber-500 hover:from-blue-600 hover:to-amber-600"
+                      className="w-full bg-gradient-to-r from-blue-500 to-orange-500 hover:from-blue-600 hover:to-orange-600"
                       onClick={() => handleStartReview(product.id)}
                     >
                       <Edit3 className="w-4 h-4 mr-2" />

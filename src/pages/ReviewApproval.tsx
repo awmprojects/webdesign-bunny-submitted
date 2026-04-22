@@ -100,7 +100,7 @@ const ReviewApproval = () => {
     if (!review) return null;
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
         <DashboardHeader />
         <main className="container mx-auto px-4 py-8">
           <Button
@@ -128,7 +128,7 @@ const ReviewApproval = () => {
                     <Star
                       key={star}
                       className={`w-5 h-5 ${
-                        star <= review.rating ? "fill-amber-400 text-amber-400" : "text-gray-300"
+                        star <= review.rating ? "fill-orange-400 text-orange-400" : "text-gray-300"
                       }`}
                     />
                   ))}
@@ -175,7 +175,7 @@ const ReviewApproval = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -216,7 +216,7 @@ const ReviewApproval = () => {
                         <TableCell>{review.product}</TableCell>
                         <TableCell>
                           <div className="flex items-center gap-1">
-                            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                            <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                             {review.rating}
                           </div>
                         </TableCell>
@@ -284,7 +284,7 @@ const ReviewApproval = () => {
                         <TableCell>{review.product}</TableCell>
                         <TableCell>
                           <div className="flex items-center gap-1">
-                            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                            <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                             {review.rating}
                           </div>
                         </TableCell>
@@ -324,7 +324,7 @@ const ReviewApproval = () => {
                         <TableCell>{review.product}</TableCell>
                         <TableCell>
                           <div className="flex items-center gap-1">
-                            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                            <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                             {review.rating}
                           </div>
                         </TableCell>

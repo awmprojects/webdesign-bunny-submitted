@@ -31,7 +31,7 @@ const Manager = () => {
 
   if (showProductForm) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+      <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
         <DashboardHeader />
         <main className="container mx-auto px-4 py-8">
           <ProductForm 
@@ -44,7 +44,7 @@ const Manager = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -74,7 +74,7 @@ const Manager = () => {
                 </div>
                 <Button 
                   onClick={handleAddProduct}
-                  className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                  className="bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
                 >
                   <Plus className="w-4 h-4 mr-2" />
                   Add New Product

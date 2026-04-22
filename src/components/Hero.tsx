@@ -5,7 +5,7 @@ import { ArrowRight, Rabbit, Star, TrendingUp, Palette, Globe, Search } from "lu
 import { Link } from "react-router-dom";
 
 const Hero = () => {
-  return <section className="pt-24 pb-16 bg-gradient-to-br from-orange-50 via-white to-amber-50 overflow-hidden">
+  return <section className="pt-24 pb-16 bg-gradient-to-br from-orange-50 via-white to-orange-50 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">

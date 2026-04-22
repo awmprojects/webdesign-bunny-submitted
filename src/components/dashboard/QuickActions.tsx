@@ -22,7 +22,7 @@ const QuickActions = () => {
           </Link>
         </Button>
         
-        <Button className="w-full justify-start bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+        <Button className="w-full justify-start bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
           <Plus className="w-4 h-4 mr-2" />
           Start New Project
         </Button>

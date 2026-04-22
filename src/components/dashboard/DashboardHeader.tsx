@@ -15,7 +15,7 @@ const DashboardHeader = () => {
         <div className="flex items-center justify-between">
           {/* Logo and brand */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-br from-orange-400 via-orange-500 to-amber-600 rounded-xl flex items-center justify-center">
+            <div className="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
               <div className="relative">
                 <div className="w-5 h-4 lg:w-6 lg:h-5 bg-gradient-to-b from-orange-100 to-orange-200 rounded-full relative">
                   <div className="absolute top-0.5 left-0.5 lg:top-1 lg:left-1 w-1 h-1 lg:w-1.5 lg:h-1.5 bg-gray-800 rounded-full"></div>
@@ -27,7 +27,7 @@ const DashboardHeader = () => {
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-base lg:text-lg font-black bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
+              <span className="text-base lg:text-lg font-black bg-gradient-to-r from-orange-600 to-orange-600 bg-clip-text text-transparent">
                 CAPYBARA
               </span>
               <span className="text-xs font-semibold text-gray-600 -mt-1 tracking-widest uppercase">
@@ -56,14 +56,14 @@ const DashboardHeader = () => {
             
             {/* User info - simplified on mobile */}
             <div className="hidden sm:flex items-center space-x-2 px-2 py-1 lg:px-3 lg:py-2 bg-gray-50 rounded-lg">
-              <div className="w-6 h-6 lg:w-8 lg:h-8 bg-gradient-to-br from-orange-400 to-amber-500 rounded-full flex items-center justify-center">
+              <div className="w-6 h-6 lg:w-8 lg:h-8 bg-gradient-to-br from-orange-400 to-orange-500 rounded-full flex items-center justify-center">
                 <User className="w-3 h-3 lg:w-4 lg:h-4 text-white" />
               </div>
               <span className="text-sm font-medium text-gray-700 hidden md:inline">John Doe</span>
             </div>
             
             {/* Mobile user avatar */}
-            <div className="sm:hidden w-8 h-8 bg-gradient-to-br from-orange-400 to-amber-500 rounded-full flex items-center justify-center">
+            <div className="sm:hidden w-8 h-8 bg-gradient-to-br from-orange-400 to-orange-500 rounded-full flex items-center justify-center">
               <User className="w-4 h-4 text-white" />
             </div>
             

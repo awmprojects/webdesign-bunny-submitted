@@ -54,7 +54,7 @@ const Profile = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -71,7 +71,7 @@ const Profile = () => {
                 <div className="relative mx-auto mb-4">
                   <Avatar className="w-24 h-24">
                     <AvatarImage src={profileData.avatar} alt="Profile" />
-                    <AvatarFallback className="bg-gradient-to-br from-orange-400 to-amber-500 text-white text-2xl">
+                    <AvatarFallback className="bg-gradient-to-br from-orange-400 to-orange-500 text-white text-2xl">
                       {profileData.firstName[0]}{profileData.lastName[0]}
                     </AvatarFallback>
                   </Avatar>
@@ -116,7 +116,7 @@ const Profile = () => {
               <CardContent>
                 <div className="grid grid-cols-2 gap-4">
                   {stats.map((stat, index) => (
-                    <div key={index} className="text-center p-3 bg-gradient-to-br from-orange-50 to-amber-50 rounded-lg">
+                    <div key={index} className="text-center p-3 bg-gradient-to-br from-orange-50 to-orange-50 rounded-lg">
                       <stat.icon className="w-6 h-6 mx-auto mb-1 text-orange-600" />
                       <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
                       <div className="text-xs text-gray-600">{stat.label}</div>
@@ -212,7 +212,7 @@ const Profile = () => {
                     <Button variant="outline" onClick={handleCancel}>
                       Cancel
                     </Button>
-                    <Button onClick={handleSave} className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+                    <Button onClick={handleSave} className="bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
                       <Save className="w-4 h-4 mr-2" />
                       Save Changes
                     </Button>
@@ -236,7 +236,7 @@ const Profile = () => {
                         <div className="font-medium text-gray-900">{badge.name}</div>
                         <div className="text-sm text-gray-600">{badge.description}</div>
                       </div>
-                      <Trophy className="w-5 h-5 text-amber-500" />
+                      <Trophy className="w-5 h-5 text-orange-500" />
                     </div>
                   ))}
                 </div>

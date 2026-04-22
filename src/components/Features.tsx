@@ -31,7 +31,7 @@ const Features = () => {
       icon: Zap,
       title: "Lightning Fast",
       description: "Fast websites keep visitors happy and help you rank higher on Google. We build sites that load in seconds, not minutes.",
-      color: "from-amber-500 to-orange-500"
+      color: "from-orange-500 to-orange-500"
     },
     {
       icon: Globe,
@@ -42,7 +42,7 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <section id="features" className="py-20 bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 lg:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 lg:mb-4">

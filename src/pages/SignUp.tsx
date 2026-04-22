@@ -57,7 +57,7 @@ const SignUp = () => {
       setIsLoading(false);
     }, 2000);
   };
-  return <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+  return <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <Header />
       
       <main className="pt-24 pb-16">

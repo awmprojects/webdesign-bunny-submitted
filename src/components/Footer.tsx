@@ -1,7 +1,7 @@
 import { Rabbit, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 const Footer = () => {
-  return <footer className="bg-gradient-to-br from-orange-50 via-white to-amber-50 py-16 border-t border-orange-100">
+  return <footer className="bg-gradient-to-br from-orange-50 via-white to-orange-50 py-16 border-t border-orange-100">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}

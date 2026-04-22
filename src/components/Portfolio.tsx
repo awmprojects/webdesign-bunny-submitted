@@ -52,7 +52,7 @@ const Portfolio = () => {
     image: "https://i.imgur.com/SEZFMPS.jpeg",
     technologies: ["React", "Online Booking", "Style Gallery"],
     link: "#",
-    color: "from-amber-500 to-orange-500"
+    color: "from-orange-500 to-orange-500"
   }];
   const handleProjectClick = (project: any) => {
     setSelectedProject(project);
@@ -62,7 +62,7 @@ const Portfolio = () => {
     setIsLightboxOpen(false);
     setSelectedProject(null);
   };
-  return <section id="portfolio" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
+  return <section id="portfolio" className="py-20 bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">

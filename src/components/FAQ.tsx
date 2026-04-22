@@ -62,7 +62,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <section id="faq" className="py-20 bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
@@ -86,7 +86,7 @@ const FAQ = () => {
                 <AccordionItem 
                   key={index} 
                   value={`item-${index}`}
-                  className="border border-orange-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-orange-50 to-amber-50"
+                  className="border border-orange-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-orange-50 to-orange-50"
                 >
                   <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-orange-600 py-6">
                     {faq.question}

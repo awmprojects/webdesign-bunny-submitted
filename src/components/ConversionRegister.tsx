@@ -78,7 +78,7 @@ const ConversionRegister = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <Header />
       
       <main className="pt-24 pb-16">
