@@ -102,7 +102,7 @@ const Admin = () => {
                 </div>
                 <Button 
                   onClick={() => handleAddUser("manager")}
-                  className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600"
+                  className="bg-gradient-to-r from-orange-500 to-orange-700 hover:from-orange-600 hover:to-pink-600"
                 >
                   <Plus className="w-4 h-4 mr-2" />
                   Add New Manager

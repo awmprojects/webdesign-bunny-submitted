@@ -20,7 +20,7 @@ const Portfolio = () => {
     image: "https://i.imgur.com/Jq9PNdq.jpeg",
     technologies: ["React", "Tailwind CSS", "Online Ordering"],
     link: "#",
-    color: "from-red-500 to-orange-500"
+    color: "from-orange-600 to-orange-400"
   }, {
     title: "Miami Luxury Yacht Charter",
     category: "Yacht Services",
@@ -44,7 +44,7 @@ const Portfolio = () => {
     image: "https://i.imgur.com/QWYTGz1.jpeg",
     technologies: ["React", "Appointment Booking", "Service Management"],
     link: "#",
-    color: "from-orange-500 to-pink-500"
+    color: "from-orange-500 to-orange-700"
   }, {
     title: "Atlanta Hair",
     category: "Beauty & Spa",

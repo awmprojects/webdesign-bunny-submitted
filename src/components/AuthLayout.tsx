@@ -31,7 +31,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
                 </div>
               </div>
               {/* Design accent */}
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-gradient-to-br from-orange-400 to-pink-500 rounded-full flex items-center justify-center shadow-md">
+              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center shadow-md">
                 <Palette className="w-2 h-2 text-white" />
               </div>
             </div>
