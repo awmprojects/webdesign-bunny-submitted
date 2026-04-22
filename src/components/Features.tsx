@@ -25,13 +25,13 @@ const Features = () => {
       icon: Smartphone,
       title: "Mobile-First Design",
       description: "Your website will look perfect on every device. More customers can find you whether they're on phone, tablet, or computer.",
-      color: "from-purple-500 to-pink-500"
+      color: "from-orange-500 to-pink-500"
     },
     {
       icon: Zap,
       title: "Lightning Fast",
       description: "Fast websites keep visitors happy and help you rank higher on Google. We build sites that load in seconds, not minutes.",
-      color: "from-indigo-500 to-purple-500"
+      color: "from-amber-500 to-orange-500"
     },
     {
       icon: Globe,
@@ -42,14 +42,14 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-to-br from-purple-50 via-white to-indigo-50">
+    <section id="features" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 lg:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-3 lg:mb-4">
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
               Why Choose{" "}
             </span>
-            <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">WebDesignBunny.com</span>
+            <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">WebDesignBunny.com</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4">
             We combine creative design with technical expertise to deliver websites that look amazing and perform perfectly.
@@ -60,7 +60,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-purple-100 hover:-translate-y-1"
+              className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-orange-100 hover:-translate-y-1"
             >
               <div className="mb-6">
                 <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${feature.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
@@ -80,7 +80,7 @@ const Features = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-purple-100 max-w-2xl mx-auto">
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-100 max-w-2xl mx-auto">
             <div className="text-6xl mb-4">🐰</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               The Web Design Bunny Promise

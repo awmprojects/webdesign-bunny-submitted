@@ -62,14 +62,14 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-gradient-to-br from-purple-50 via-white to-indigo-50">
+    <section id="faq" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
               Frequently Asked
             </span>{" "}
-            <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
               Questions
             </span>
           </h2>
@@ -80,15 +80,15 @@ const FAQ = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-3xl shadow-lg border border-purple-100 p-8">
+          <div className="bg-white rounded-3xl shadow-lg border border-orange-100 p-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
                 <AccordionItem 
                   key={index} 
                   value={`item-${index}`}
-                  className="border border-purple-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-purple-50 to-indigo-50"
+                  className="border border-orange-200 rounded-2xl px-6 py-2 bg-gradient-to-r from-orange-50 to-amber-50"
                 >
-                  <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-purple-600 py-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-orange-600 py-6">
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-600 leading-relaxed pb-6">
@@ -101,7 +101,7 @@ const FAQ = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-purple-100 max-w-2xl mx-auto">
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-100 max-w-2xl mx-auto">
             <div className="text-6xl mb-4">🐰</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               Still Have Questions?
@@ -112,7 +112,7 @@ const FAQ = () => {
             </p>
             <Link 
               to="/register"
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white rounded-full px-6 py-3 border border-purple-200 transition-all duration-200 transform hover:scale-105"
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white rounded-full px-6 py-3 border border-orange-200 transition-all duration-200 transform hover:scale-105"
             >
               <span className="font-medium">
                 📧 Contact us for a free consultation

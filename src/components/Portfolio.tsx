@@ -44,7 +44,7 @@ const Portfolio = () => {
     image: "https://i.imgur.com/QWYTGz1.jpeg",
     technologies: ["React", "Appointment Booking", "Service Management"],
     link: "#",
-    color: "from-purple-500 to-pink-500"
+    color: "from-orange-500 to-pink-500"
   }, {
     title: "Atlanta Hair",
     category: "Beauty & Spa",
@@ -52,7 +52,7 @@ const Portfolio = () => {
     image: "https://i.imgur.com/SEZFMPS.jpeg",
     technologies: ["React", "Online Booking", "Style Gallery"],
     link: "#",
-    color: "from-indigo-500 to-purple-500"
+    color: "from-amber-500 to-orange-500"
   }];
   const handleProjectClick = (project: any) => {
     setSelectedProject(project);
@@ -62,14 +62,14 @@ const Portfolio = () => {
     setIsLightboxOpen(false);
     setSelectedProject(null);
   };
-  return <section id="portfolio" className="py-20 bg-gradient-to-br from-purple-50 via-white to-indigo-50">
+  return <section id="portfolio" className="py-20 bg-gradient-to-br from-orange-50 via-white to-amber-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
               Our Web Design
             </span>{" "}
-            <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
               Portfolio
             </span>
           </h2>
@@ -80,7 +80,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => <div key={index} className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-purple-200 overflow-hidden hover:-translate-y-2 cursor-pointer" onClick={() => handleProjectClick(project)}>
+          {projects.map((project, index) => <div key={index} className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-orange-200 overflow-hidden hover:-translate-y-2 cursor-pointer" onClick={() => handleProjectClick(project)}>
               <div className="relative overflow-hidden">
                 <img src={project.image} alt={project.title} className="w-full h-56 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -97,13 +97,13 @@ const Portfolio = () => {
               
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-purple-600 bg-purple-100 px-3 py-1 rounded-full">
+                  <span className="text-sm font-medium text-orange-600 bg-orange-100 px-3 py-1 rounded-full">
                     {project.category}
                   </span>
                   <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${project.color}`} />
                 </div>
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">
                   {project.title}
                 </h3>
                 

@@ -92,9 +92,9 @@ const Dashboard = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-100">
+          <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-amber-100">
             <CardContent className="p-6 text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Guaranteed Quality</h3>
@@ -163,9 +163,9 @@ const Dashboard = () => {
                     </Button>
                   </div>
                   
-                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border">
+                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-amber-50 rounded-lg border">
                     <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-amber-500 rounded-xl flex items-center justify-center">
                         <Palette className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -253,22 +253,22 @@ const Dashboard = () => {
         </Tabs>
 
         {/* Bottom CTA Section - Improved Mobile Design */}
-        <div className="mt-8 sm:mt-12 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
+        <div className="mt-8 sm:mt-12 bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-4 leading-tight">
             Don't Miss Out on Your 
             <br className="sm:hidden" />
             <span className="block sm:inline"> FREE $500 Credit!</span>
           </h3>
-          <p className="text-purple-100 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto px-2 sm:px-0">
+          <p className="text-orange-100 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto px-2 sm:px-0">
             Join thousands of satisfied clients who've transformed their online presence with CAPYBARA
           </p>
-          <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-purple-50 font-bold text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-3 sm:py-4 h-auto shadow-lg w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
+          <Button asChild size="lg" className="bg-white text-orange-600 hover:bg-orange-50 font-bold text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-3 sm:py-4 h-auto shadow-lg w-full sm:w-auto max-w-sm sm:max-w-none mx-auto">
             <Link to="/claim-credit">
               <Gift className="w-5 h-5 sm:w-6 sm:h-6 mr-2 flex-shrink-0" />
               <span className="truncate">Claim Your Free Credit Today</span>
             </Link>
           </Button>
-          <p className="text-purple-200 mt-3 sm:mt-4 text-xs sm:text-sm">⚡ Limited time offer - Act now!</p>
+          <p className="text-orange-200 mt-3 sm:mt-4 text-xs sm:text-sm">⚡ Limited time offer - Act now!</p>
         </div>
       </main>
     </div>;
