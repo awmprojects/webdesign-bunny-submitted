@@ -21,6 +21,19 @@ export default {
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
+				orange: {
+					50: 'hsl(28 100% 96%)',
+					100: 'hsl(28 100% 92%)',
+					200: 'hsl(27 100% 84%)',
+					300: 'hsl(26 100% 74%)',
+					400: 'hsl(25 100% 62%)',
+					500: 'hsl(30 100% 55%)',
+					600: 'hsl(24 100% 50%)',
+					700: 'hsl(22 100% 42%)',
+					800: 'hsl(20 100% 34%)',
+					900: 'hsl(18 100% 26%)',
+					950: 'hsl(16 100% 16%)',
+				},
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
