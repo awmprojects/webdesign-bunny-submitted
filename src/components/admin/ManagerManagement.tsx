@@ -96,7 +96,7 @@ const ManagerManagement = ({ onEditManager }: ManagerManagementProps) => {
   const getPermissionBadgeColor = (permission: string) => {
     switch (permission) {
       case 'review_approval': return 'bg-blue-100 text-blue-800';
-      case 'product_management': return 'bg-purple-100 text-purple-800';
+      case 'product_management': return 'bg-orange-100 text-orange-800';
       case 'user_support': return 'bg-green-100 text-green-800';
       default: return 'bg-gray-100 text-gray-800';
     }
@@ -125,12 +125,12 @@ const ManagerManagement = ({ onEditManager }: ManagerManagementProps) => {
 
           {/* Quick Stats */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-            <div className="bg-purple-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <Shield className="w-5 h-5 text-purple-600" />
-                <span className="text-sm font-medium text-purple-600">Total Managers</span>
+                <Shield className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Total Managers</span>
               </div>
-              <p className="text-2xl font-bold text-purple-900">{managers.length}</p>
+              <p className="text-2xl font-bold text-orange-900">{managers.length}</p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">

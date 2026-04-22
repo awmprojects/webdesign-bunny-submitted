@@ -178,14 +178,14 @@ const Earnings = () => {
             </CardContent>
           </Card>
 
-          <Card className="shadow-lg border-l-4 border-l-purple-500">
+          <Card className="shadow-lg border-l-4 border-l-orange-500">
             <CardHeader className="pb-2">
               <CardTitle className="text-sm font-medium text-gray-600">Available Balance</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-2xl font-bold text-purple-600">${earningsStats.availableBalance.toFixed(2)}</p>
+                  <p className="text-2xl font-bold text-orange-600">${earningsStats.availableBalance.toFixed(2)}</p>
                   <Button asChild size="sm" className="mt-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
                     <Link to="/withdrawal">
                       <Wallet className="w-3 h-3 mr-1" />
@@ -193,7 +193,7 @@ const Earnings = () => {
                     </Link>
                   </Button>
                 </div>
-                <Wallet className="w-8 h-8 text-purple-500" />
+                <Wallet className="w-8 h-8 text-orange-500" />
               </div>
             </CardContent>
           </Card>

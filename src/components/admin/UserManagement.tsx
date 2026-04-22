@@ -153,12 +153,12 @@ const UserManagement = ({ onEditUser }: UserManagementProps) => {
                 ${users.reduce((sum, u) => sum + u.totalEarnings, 0).toFixed(0)}
               </p>
             </div>
-            <div className="bg-purple-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <Users className="w-5 h-5 text-purple-600" />
-                <span className="text-sm font-medium text-purple-600">Affiliate Earnings</span>
+                <Users className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Affiliate Earnings</span>
               </div>
-              <p className="text-2xl font-bold text-purple-900">
+              <p className="text-2xl font-bold text-orange-900">
                 ${totalAffiliateEarnings.toFixed(0)}
               </p>
             </div>
@@ -220,7 +220,7 @@ const UserManagement = ({ onEditUser }: UserManagementProps) => {
                   <TableCell className="font-medium text-green-600">
                     ${user.totalEarnings.toFixed(2)}
                   </TableCell>
-                  <TableCell className="font-medium text-purple-600">
+                  <TableCell className="font-medium text-orange-600">
                     ${user.affiliateEarnings.toFixed(2)}
                   </TableCell>
                   <TableCell>

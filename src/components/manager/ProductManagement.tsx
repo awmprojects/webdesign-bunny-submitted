@@ -122,12 +122,12 @@ const ProductManagement = ({ onEditProduct }: ProductManagementProps) => {
                 ${(products.reduce((sum, p) => sum + p.price, 0) / products.length).toFixed(0)}
               </p>
             </div>
-            <div className="bg-purple-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 text-purple-600" />
-                <span className="text-sm font-medium text-purple-600">Avg. Rating</span>
+                <Star className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Avg. Rating</span>
               </div>
-              <p className="text-2xl font-bold text-purple-900">
+              <p className="text-2xl font-bold text-orange-900">
                 {(products.reduce((sum, p) => sum + p.rating, 0) / products.length).toFixed(1)}
               </p>
             </div>

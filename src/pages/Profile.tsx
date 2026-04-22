@@ -50,7 +50,7 @@ const Profile = () => {
     { name: "Top Reviewer", color: "bg-yellow-500", description: "Top 5% of reviewers" },
     { name: "Verified Buyer", color: "bg-green-500", description: "Verified purchases only" },
     { name: "Early Adopter", color: "bg-blue-500", description: "Reviews new products" },
-    { name: "Detail Master", color: "bg-purple-500", description: "Writes detailed reviews" }
+    { name: "Detail Master", color: "bg-orange-500", description: "Writes detailed reviews" }
   ];
 
   return (

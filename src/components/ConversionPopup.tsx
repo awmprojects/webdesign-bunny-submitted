@@ -56,11 +56,11 @@ const ConversionPopup: React.FC<ConversionPopupProps> = ({ isOpen, onClose }) =>
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogOverlay className="bg-black/20" />
       <DialogContent className="max-w-lg mx-auto bg-[#F5F4FF] rounded-3xl p-0 shadow-2xl border-0 overflow-hidden max-h-[90vh]">
-        <div className="overflow-y-auto max-h-[90vh] scrollbar-thin scrollbar-thumb-purple-300 scrollbar-track-gray-100">
+        <div className="overflow-y-auto max-h-[90vh] scrollbar-thin scrollbar-thumb-orange-300 scrollbar-track-gray-100">
           <div className="p-8 pt-10">
           {/* Icon */}
           <div className="flex justify-center mb-6">
-            <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl flex items-center justify-center shadow-lg">
+            <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl flex items-center justify-center shadow-lg">
               <Rabbit className="h-10 w-10 text-white" />
             </div>
           </div>
@@ -115,13 +115,13 @@ const ConversionPopup: React.FC<ConversionPopupProps> = ({ isOpen, onClose }) =>
                 placeholder="Enter your email address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:outline-none focus:ring-0 focus:border-purple-400 text-center text-base placeholder:text-gray-400 bg-gray-50"
+                className="w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:outline-none focus:ring-0 focus:border-orange-400 text-center text-base placeholder:text-gray-400 bg-gray-50"
                 required
               />
             </div>
             <Button
               type="submit"
-              className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold text-lg py-5 rounded-2xl transition-all duration-200 shadow-lg hover:shadow-xl border-0"
+              className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold text-lg py-5 rounded-2xl transition-all duration-200 shadow-lg hover:shadow-xl border-0"
             >
               Claim My Free Website Design
             </Button>
@@ -132,7 +132,7 @@ const ConversionPopup: React.FC<ConversionPopupProps> = ({ isOpen, onClose }) =>
             <p className="text-sm text-gray-700 text-center leading-relaxed">
               <span className="line-through text-gray-500">Regularly $1000</span>{" "}
               —{" "}
-              <span className="text-purple-600 font-bold">
+              <span className="text-orange-600 font-bold">
                 now 100% free for a limited time.
               </span>{" "}
               Just enter your email above and unlock your professional website design package.

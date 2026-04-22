@@ -6,8 +6,8 @@ const DashboardStats = () => {
     value: "12",
     subValue: "+3 this month",
     icon: Briefcase,
-    color: "from-blue-500 to-indigo-500",
-    bgColor: "from-blue-50 to-indigo-50"
+    color: "from-blue-500 to-amber-500",
+    bgColor: "from-blue-50 to-amber-50"
   }, {
     title: "Completed Designs",
     value: "47",
@@ -27,8 +27,8 @@ const DashboardStats = () => {
     value: "$24,500",
     subValue: "This quarter",
     icon: DollarSign,
-    color: "from-purple-500 to-violet-500",
-    bgColor: "from-purple-50 to-violet-50"
+    color: "from-orange-500 to-violet-500",
+    bgColor: "from-orange-50 to-violet-50"
   }];
   return <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
       {stats.map(stat => <Card key={stat.title} className={`bg-gradient-to-br ${stat.bgColor} border-0 shadow-lg hover:shadow-xl transition-shadow`}>

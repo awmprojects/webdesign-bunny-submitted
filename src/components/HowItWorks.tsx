@@ -13,7 +13,7 @@ const HowItWorks = () => {
       icon: Palette,
       title: "Design & Prototype",
       description: "Our team creates stunning mockups and prototypes that bring your vision to life with style.",
-      color: "from-purple-500 to-violet-500"
+      color: "from-orange-500 to-violet-500"
     },
     {
       icon: Code,
@@ -25,7 +25,7 @@ const HowItWorks = () => {
       icon: Rocket,
       title: "Launch & Support",
       description: "Your website goes live with ongoing support and maintenance to keep it running smoothly!",
-      color: "from-purple-600 to-purple-700"
+      color: "from-orange-600 to-orange-700"
     }
   ];
 
@@ -51,15 +51,15 @@ const HowItWorks = () => {
             >
               {/* Connection line */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-purple-200 to-transparent z-0" />
+                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-orange-200 to-transparent z-0" />
               )}
               
-              <div className="relative z-10 text-center p-6 rounded-2xl bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-100 hover:shadow-lg transition-all duration-300 group-hover:scale-105">
+              <div className="relative z-10 text-center p-6 rounded-2xl bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 hover:shadow-lg transition-all duration-300 group-hover:scale-105">
                 <div className="mb-6">
                   <div className={`w-16 h-16 mx-auto rounded-full bg-gradient-to-br ${step.color} flex items-center justify-center shadow-lg`}>
                     <step.icon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg">
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg">
                     {index + 1}
                   </div>
                 </div>
@@ -77,9 +77,9 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-100 to-indigo-100 rounded-full px-6 py-3 border border-purple-200">
+          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-100 to-amber-100 rounded-full px-6 py-3 border border-orange-200">
             <span className="text-2xl">🐰</span>
-            <span className="text-purple-800 font-medium">
+            <span className="text-orange-800 font-medium">
               Professional web design made simple and stress-free!
             </span>
           </div>

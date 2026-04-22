@@ -81,7 +81,7 @@ const Lightbox = ({ project, isOpen, onClose }: LightboxProps) => {
                   <p className="text-xs text-gray-600 font-medium">Clean Code</p>
                 </div>
                 <div className="text-center">
-                  <Globe className="w-6 h-6 text-purple-600 mx-auto mb-2" />
+                  <Globe className="w-6 h-6 text-orange-600 mx-auto mb-2" />
                   <p className="text-xs text-gray-600 font-medium">SEO Ready</p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const Lightbox = ({ project, isOpen, onClose }: LightboxProps) => {
               <div className="space-y-3 pt-2">
                 <Link to="/register">
                   <Button 
-                    className="w-full h-12 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-semibold rounded-xl"
+                    className="w-full h-12 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-semibold rounded-xl"
                   >
                     <Globe className="w-4 h-4 mr-2" />
                     Order a Similar Web Design

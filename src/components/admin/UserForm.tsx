@@ -73,7 +73,7 @@ const UserForm = ({ user, userType, onClose }: UserFormProps) => {
   const getPermissionBadgeColor = (permission: string) => {
     switch (permission) {
       case 'review_approval': return 'bg-blue-100 text-blue-800';
-      case 'product_management': return 'bg-purple-100 text-purple-800';
+      case 'product_management': return 'bg-orange-100 text-orange-800';
       case 'user_support': return 'bg-green-100 text-green-800';
       case 'analytics_access': return 'bg-amber-100 text-amber-800';
       case 'payment_processing': return 'bg-red-100 text-red-800';
@@ -237,7 +237,7 @@ const UserForm = ({ user, userType, onClose }: UserFormProps) => {
           <div className="flex gap-3 pt-4">
             <Button
               type="submit"
-              className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600"
+              className="bg-gradient-to-r from-blue-500 to-amber-500 hover:from-blue-600 hover:to-amber-600"
             >
               <Save className="w-4 h-4 mr-2" />
               {user ? 'Update' : 'Create'} {userType}

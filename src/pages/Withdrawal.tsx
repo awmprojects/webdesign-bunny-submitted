@@ -175,9 +175,9 @@ const Withdrawal = () => {
               )}
 
               {paymentMethod === "venmo" && (
-                <Alert className="border-purple-200 bg-purple-50">
-                  <AlertCircle className="h-4 w-4 text-purple-600" />
-                  <AlertDescription className="text-purple-800">
+                <Alert className="border-orange-200 bg-orange-50">
+                  <AlertCircle className="h-4 w-4 text-orange-600" />
+                  <AlertDescription className="text-orange-800">
                     Venmo username will be collected after submission.
                   </AlertDescription>
                 </Alert>

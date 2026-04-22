@@ -29,15 +29,15 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
       <Header />
       
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-md mx-auto">
-            <div className="bg-white rounded-2xl shadow-xl p-8 border border-purple-100">
+            <div className="bg-white rounded-2xl shadow-xl p-8 border border-orange-100">
               <div className="text-center mb-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Rabbit className="w-8 h-8 text-white" />
                 </div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h1>
@@ -47,7 +47,7 @@ const Login = () => {
               <div className="mb-6">
                 <Link 
                   to="/" 
-                  className="inline-flex items-center text-sm text-purple-600 hover:text-purple-500 transition-colors"
+                  className="inline-flex items-center text-sm text-orange-600 hover:text-orange-500 transition-colors"
                 >
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Return to Homepage
@@ -67,7 +67,7 @@ const Login = () => {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="your@email.com"
-                        className="pl-10 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+                        className="pl-10 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
                         required
                       />
                       <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
@@ -85,7 +85,7 @@ const Login = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Enter your password"
-                        className="pl-10 pr-10 border-gray-300 focus:border-purple-500 focus:ring-purple-500"
+                        className="pl-10 pr-10 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
                         required
                       />
                       <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
@@ -106,7 +106,7 @@ const Login = () => {
                       id="remember-me"
                       name="remember-me"
                       type="checkbox"
-                      className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
+                      className="h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
                     />
                     <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
                       Remember me
@@ -114,7 +114,7 @@ const Login = () => {
                   </div>
 
                   <div className="text-sm">
-                    <Link to="/forgot-password" className="font-medium text-purple-600 hover:text-purple-500">
+                    <Link to="/forgot-password" className="font-medium text-orange-600 hover:text-orange-500">
                       Forgot password?
                     </Link>
                   </div>
@@ -123,7 +123,7 @@ const Login = () => {
                 <Button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white py-3"
+                  className="w-full bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white py-3"
                 >
                   {isLoading ? (
                     <div className="flex items-center space-x-2">
@@ -141,7 +141,7 @@ const Login = () => {
                 <div className="text-center">
                   <p className="text-sm text-gray-600">
                     Don't have an account?{" "}
-                    <Link to="/register" className="font-medium text-purple-600 hover:text-purple-500">
+                    <Link to="/register" className="font-medium text-orange-600 hover:text-orange-500">
                       Sign up for free
                     </Link>
                   </p>

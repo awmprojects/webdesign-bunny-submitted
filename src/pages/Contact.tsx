@@ -73,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <Header />
       
       {/* Hero Section */}
@@ -81,13 +81,13 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl flex items-center justify-center shadow-lg">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl flex items-center justify-center shadow-lg">
                 <Rabbit className="h-8 w-8 text-white" />
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Get in Touch with 
-              <span className="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent"> Web Design Bunny</span>
+              <span className="bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent"> Web Design Bunny</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Ready to hop into your next web design project? We'd love to hear from you! 
@@ -183,7 +183,7 @@ const Contact = () => {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-semibold py-3"
+                    className="w-full bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white font-semibold py-3"
                   >
                     <Send className="w-4 h-4 mr-2" />
                     {isSubmitting ? "Sending..." : "Send Message"}
