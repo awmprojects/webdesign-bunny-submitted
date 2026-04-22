@@ -19,13 +19,13 @@ const Features = () => {
       icon: Clock,
       title: "Quick Delivery",
       description: "Your new website will be ready in just 3 days. No waiting months for results - we get you online fast.",
-      color: "from-yellow-500 to-orange-500"
+      color: "from-orange-400 to-orange-600"
     },
     {
       icon: Smartphone,
       title: "Mobile-First Design",
       description: "Your website will look perfect on every device. More customers can find you whether they're on phone, tablet, or computer.",
-      color: "from-orange-500 to-pink-500"
+      color: "from-orange-500 to-orange-700"
     },
     {
       icon: Zap,
