@@ -60,7 +60,7 @@ const Withdrawal = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -90,9 +90,9 @@ const Withdrawal = () => {
 
           {/* Withdrawal Status Alert */}
           {!canWithdraw ? (
-            <Alert className="border-amber-200 bg-amber-50">
-              <AlertCircle className="h-4 w-4 text-amber-600" />
-              <AlertDescription className="text-amber-800">
+            <Alert className="border-orange-200 bg-orange-50">
+              <AlertCircle className="h-4 w-4 text-orange-600" />
+              <AlertDescription className="text-orange-800">
                 You need at least ${minimumWithdrawal.toFixed(2)} to request a withdrawal. 
                 Your current balance is ${availableBalance.toFixed(2)}.
               </AlertDescription>
@@ -186,7 +186,7 @@ const Withdrawal = () => {
               <Button
                 onClick={handleWithdrawalRequest}
                 disabled={!canWithdraw || !isValidAmount || !paymentMethod || isProcessing}
-                className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
               >
                 {isProcessing ? (
                   <>

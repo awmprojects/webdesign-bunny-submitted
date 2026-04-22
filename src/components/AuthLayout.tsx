@@ -9,13 +9,13 @@ interface AuthLayoutProps {
 
 const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Logo Section */}
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
             <div className="relative">
-              <div className="w-16 h-16 bg-gradient-to-br from-orange-400 via-orange-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <div className="relative">
                   {/* Capybara face design */}
                   <div className="w-10 h-8 bg-gradient-to-b from-orange-100 to-orange-200 rounded-full relative">
@@ -39,7 +39,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
           
           <div className="flex flex-col items-center">
             <div className="flex items-baseline space-x-1 mb-2">
-              <span className="text-3xl font-black bg-gradient-to-r from-orange-600 via-orange-700 to-amber-600 bg-clip-text text-transparent tracking-tight">
+              <span className="text-3xl font-black bg-gradient-to-r from-orange-600 via-orange-700 to-orange-600 bg-clip-text text-transparent tracking-tight">
                 CAPYBARA
               </span>
             </div>

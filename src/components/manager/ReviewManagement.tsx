@@ -126,7 +126,7 @@ const ReviewManagement = () => {
                   <Star
                     key={star}
                     className={`w-5 h-5 ${
-                      star <= review.rating ? "fill-amber-400 text-amber-400" : "text-gray-300"
+                      star <= review.rating ? "fill-orange-400 text-orange-400" : "text-gray-300"
                     }`}
                   />
                 ))}
@@ -237,7 +237,7 @@ const ReviewManagement = () => {
                       <TableCell>{review.product}</TableCell>
                       <TableCell>
                         <div className="flex items-center gap-1">
-                          <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                          <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                           {review.rating}
                         </div>
                       </TableCell>
@@ -305,7 +305,7 @@ const ReviewManagement = () => {
                       <TableCell>{review.product}</TableCell>
                       <TableCell>
                         <div className="flex items-center gap-1">
-                          <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                          <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                           {review.rating}
                         </div>
                       </TableCell>
@@ -345,7 +345,7 @@ const ReviewManagement = () => {
                       <TableCell>{review.product}</TableCell>
                       <TableCell>
                         <div className="flex items-center gap-1">
-                          <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                          <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                           {review.rating}
                         </div>
                       </TableCell>

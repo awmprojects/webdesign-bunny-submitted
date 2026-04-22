@@ -227,7 +227,7 @@ const ProductForm = ({ product, onClose }: ProductFormProps) => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="flex-1 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                className="flex-1 bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
               >
                 {isSubmitting ? (
                   "Saving..."

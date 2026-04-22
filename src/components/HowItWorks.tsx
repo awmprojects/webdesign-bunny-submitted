@@ -54,7 +54,7 @@ const HowItWorks = () => {
                 <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-orange-200 to-transparent z-0" />
               )}
               
-              <div className="relative z-10 text-center p-6 rounded-2xl bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 hover:shadow-lg transition-all duration-300 group-hover:scale-105">
+              <div className="relative z-10 text-center p-6 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-50 border border-orange-100 hover:shadow-lg transition-all duration-300 group-hover:scale-105">
                 <div className="mb-6">
                   <div className={`w-16 h-16 mx-auto rounded-full bg-gradient-to-br ${step.color} flex items-center justify-center shadow-lg`}>
                     <step.icon className="w-8 h-8 text-white" />
@@ -77,7 +77,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-100 to-amber-100 rounded-full px-6 py-3 border border-orange-200">
+          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-100 to-orange-100 rounded-full px-6 py-3 border border-orange-200">
             <span className="text-2xl">🐰</span>
             <span className="text-orange-800 font-medium">
               Professional web design made simple and stress-free!

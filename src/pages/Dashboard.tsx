@@ -9,12 +9,12 @@ import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import CountdownTimer from "@/components/CountdownTimer";
 import { Link } from "react-router-dom";
 const Dashboard = () => {
-  return <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+  return <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
         {/* Free Credit Hero Section */}
-        <div className="mb-8 bg-gradient-to-r from-orange-500 via-orange-600 to-amber-500 rounded-2xl p-6 md:p-8 text-white shadow-2xl">
+        <div className="mb-8 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 rounded-2xl p-6 md:p-8 text-white shadow-2xl">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start space-x-2 mb-3">
@@ -74,7 +74,7 @@ const Dashboard = () => {
         <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="border-orange-200 bg-gradient-to-br from-orange-50 to-orange-100">
             <CardContent className="p-6 text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Palette className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Professional Design</h3>
@@ -92,9 +92,9 @@ const Dashboard = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-amber-100">
+          <Card className="border-blue-200 bg-gradient-to-br from-blue-50 to-orange-100">
             <CardContent className="p-6 text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Guaranteed Quality</h3>
@@ -144,9 +144,9 @@ const Dashboard = () => {
                     </Button>
                   </div>
                   
-                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg border">
+                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-orange-50 to-orange-50 rounded-lg border">
                     <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-amber-500 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-500 rounded-xl flex items-center justify-center">
                         <Globe className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -158,14 +158,14 @@ const Dashboard = () => {
                         </div>
                       </div>
                     </div>
-                    <Button size="sm" className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+                    <Button size="sm" className="bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
                       View Details
                     </Button>
                   </div>
                   
-                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-amber-50 rounded-lg border">
+                  <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-orange-50 rounded-lg border">
                     <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-amber-500 rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-orange-500 rounded-xl flex items-center justify-center">
                         <Palette className="w-6 h-6 text-white" />
                       </div>
                       <div>
@@ -234,7 +234,7 @@ const Dashboard = () => {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-50 rounded-lg">
+                  <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-50 rounded-lg">
                     <TrendingUp className="w-8 h-8 text-orange-600 mx-auto mb-2" />
                     <h3 className="font-semibold text-gray-900">Client Satisfaction</h3>
                     <p className="text-2xl font-bold text-orange-600">4.9/5</p>
@@ -253,7 +253,7 @@ const Dashboard = () => {
         </Tabs>
 
         {/* Bottom CTA Section - Improved Mobile Design */}
-        <div className="mt-8 sm:mt-12 bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
+        <div className="mt-8 sm:mt-12 bg-gradient-to-r from-orange-600 to-orange-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-4 leading-tight">
             Don't Miss Out on Your 
             <br className="sm:hidden" />

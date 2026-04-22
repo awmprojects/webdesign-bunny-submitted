@@ -10,7 +10,7 @@ const Rewards = () => {
     { name: "E-commerce Site", icon: Smartphone, color: "from-green-500 to-emerald-500", price: "$8,000", features: "Online store, payment integration, product management" },
     { name: "Premium Package", icon: Globe, color: "from-orange-600 to-orange-700", price: "$12,000", features: "Unlimited pages, advanced features, priority support" },
     { name: "Landing Page", icon: Code, color: "from-pink-500 to-rose-500", price: "$1,500", features: "Single page, conversion focused, fast delivery" },
-    { name: "Website Redesign", icon: Smartphone, color: "from-amber-500 to-orange-500", price: "$3,500", features: "Modern refresh, improved UX, mobile optimization" }
+    { name: "Website Redesign", icon: Smartphone, color: "from-orange-500 to-orange-500", price: "$3,500", features: "Modern refresh, improved UX, mobile optimization" }
   ];
 
   const addOns = [
@@ -39,7 +39,7 @@ const Rewards = () => {
 
         {/* Special Offer Section */}
         <div className="mb-12">
-          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-3xl p-8 shadow-2xl border-4 border-orange-200 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-orange-50 to-orange-50 rounded-3xl p-8 shadow-2xl border-4 border-orange-200 relative overflow-hidden">
             {/* Background decoration */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-orange-200 rounded-full opacity-30 -translate-y-16 translate-x-16"></div>
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-orange-200 rounded-full opacity-30 translate-y-12 -translate-x-12"></div>
@@ -122,7 +122,7 @@ const Rewards = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-3xl p-8 border border-orange-200">
+        <div className="bg-gradient-to-br from-orange-50 to-orange-50 rounded-3xl p-8 border border-orange-200">
           <div className="text-center mb-8">
             <Globe className="w-12 h-12 text-orange-600 mx-auto mb-4" />
             <h3 className="text-3xl font-bold text-gray-900 mb-2">Add-On Services</h3>

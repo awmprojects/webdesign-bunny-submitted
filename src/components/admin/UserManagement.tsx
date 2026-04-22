@@ -162,12 +162,12 @@ const UserManagement = ({ onEditUser }: UserManagementProps) => {
                 ${totalAffiliateEarnings.toFixed(0)}
               </p>
             </div>
-            <div className="bg-amber-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 text-amber-600" />
-                <span className="text-sm font-medium text-amber-600">Avg. Rating</span>
+                <Star className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Avg. Rating</span>
               </div>
-              <p className="text-2xl font-bold text-amber-900">
+              <p className="text-2xl font-bold text-orange-900">
                 {(users.reduce((sum, u) => sum + u.averageRating, 0) / users.length).toFixed(1)}
               </p>
             </div>
@@ -213,7 +213,7 @@ const UserManagement = ({ onEditUser }: UserManagementProps) => {
                   <TableCell className="text-center">{user.reviewsSubmitted}</TableCell>
                   <TableCell>
                     <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                      <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                       <span>{user.averageRating}</span>
                     </div>
                   </TableCell>

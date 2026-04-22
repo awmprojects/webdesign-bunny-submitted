@@ -130,7 +130,7 @@ const Products = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -150,7 +150,7 @@ const Products = () => {
                   key={category}
                   variant={selectedCategory === category ? "default" : "outline"}
                   onClick={() => setSelectedCategory(category)}
-                  className={selectedCategory === category ? "bg-gradient-to-r from-orange-500 to-amber-500" : ""}
+                  className={selectedCategory === category ? "bg-gradient-to-r from-orange-500 to-orange-500" : ""}
                 >
                   {category}
                 </Button>
@@ -186,7 +186,7 @@ const Products = () => {
               <CardHeader className="pb-3">
                 <div className="flex justify-between items-start mb-2">
                   <Badge variant="secondary">{product.category}</Badge>
-                  <div className="flex items-center gap-1 text-sm text-amber-600">
+                  <div className="flex items-center gap-1 text-sm text-orange-600">
                     <DollarSign className="w-4 h-4" />
                     <span className="font-semibold">${product.reward}</span>
                     <span className="text-gray-500">reward</span>
@@ -200,7 +200,7 @@ const Products = () => {
               <CardContent className="pt-0">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                    <Star className="w-4 h-4 fill-orange-400 text-orange-400" />
                     <span className="font-medium">{product.rating}</span>
                     <span className="text-gray-500 text-sm">({product.reviewCount})</span>
                   </div>
@@ -219,7 +219,7 @@ const Products = () => {
                   </Button>
                 ) : (
                   <Button 
-                    className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600"
+                    className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600"
                     onClick={() => handleClaimProduct(product.id)}
                     disabled={isProductBeingClaimed(product.id)}
                   >

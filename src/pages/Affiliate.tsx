@@ -69,7 +69,7 @@ const Affiliate = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -184,7 +184,7 @@ const Affiliate = () => {
                     </div>
                   </div>
 
-                  <Button className="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+                  <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
                     <Share2 className="w-4 h-4 mr-2" />
                     Share Referral Link
                   </Button>
@@ -215,8 +215,8 @@ const Affiliate = () => {
                       <Badge variant="secondary" className="bg-green-100 text-green-800">50%</Badge>
                     </div>
 
-                    <div className="mt-4 p-3 bg-amber-50 rounded-lg">
-                      <p className="text-sm text-amber-800">
+                    <div className="mt-4 p-3 bg-orange-50 rounded-lg">
+                      <p className="text-sm text-orange-800">
                         <strong>Example:</strong> If your referral earns $100 from a business review, 
                         the site fee is $10, and you earn $5 commission.
                       </p>
@@ -328,7 +328,7 @@ const Affiliate = () => {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-orange-50 to-amber-50 p-4 rounded-lg">
+                <div className="bg-gradient-to-r from-orange-50 to-orange-50 p-4 rounded-lg">
                   <h3 className="font-medium text-orange-900 mb-2">Important Notes</h3>
                   <ul className="text-sm text-orange-800 space-y-1">
                     <li>• Commissions are calculated on business review site fees only</li>

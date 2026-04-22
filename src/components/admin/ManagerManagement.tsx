@@ -146,12 +146,12 @@ const ManagerManagement = ({ onEditManager }: ManagerManagementProps) => {
               </div>
               <p className="text-2xl font-bold text-blue-900">{managers.reduce((sum, m) => sum + m.managedUsers, 0)}</p>
             </div>
-            <div className="bg-amber-50 p-4 rounded-lg">
+            <div className="bg-orange-50 p-4 rounded-lg">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-amber-600" />
-                <span className="text-sm font-medium text-amber-600">Reviews Approved</span>
+                <CheckCircle className="w-5 h-5 text-orange-600" />
+                <span className="text-sm font-medium text-orange-600">Reviews Approved</span>
               </div>
-              <p className="text-2xl font-bold text-amber-900">{managers.reduce((sum, m) => sum + m.approvedReviews, 0)}</p>
+              <p className="text-2xl font-bold text-orange-900">{managers.reduce((sum, m) => sum + m.approvedReviews, 0)}</p>
             </div>
           </div>
 

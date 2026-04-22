@@ -119,7 +119,7 @@ const Earnings = () => {
     : paymentHistory.filter(payment => payment.status === statusFilter);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-50">
       <DashboardHeader />
       
       <main className="container mx-auto px-4 py-8">
@@ -186,7 +186,7 @@ const Earnings = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-2xl font-bold text-orange-600">${earningsStats.availableBalance.toFixed(2)}</p>
-                  <Button asChild size="sm" className="mt-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+                  <Button asChild size="sm" className="mt-2 bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
                     <Link to="/withdrawal">
                       <Wallet className="w-3 h-3 mr-1" />
                       Withdraw
@@ -277,7 +277,7 @@ const Earnings = () => {
                     <CardTitle>Withdrawal History</CardTitle>
                     <CardDescription>Your withdrawal requests and their status</CardDescription>
                   </div>
-                  <Button asChild className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600">
+                  <Button asChild className="bg-gradient-to-r from-orange-500 to-orange-500 hover:from-orange-600 hover:to-orange-600">
                     <Link to="/withdrawal">
                       <Wallet className="w-4 h-4 mr-2" />
                       New Withdrawal
